@@ -3132,18 +3132,7 @@ form .form-group label em {
   .main-menu .navbar-collapse {
     width: 100%;
   }
-  .main-menu .navbar-header .navbar-toggle {
-    display: inline-block;
-    z-index: 7;
-    border: 1px solid #ffffff;
-    float: left;
-    margin: 0px 0px 0px 15px;
-    border-radius: 0px;
-    background: #222;
-  }
-  .main-menu .navbar-header .navbar-toggle .icon-bar {
-    background: #ffffff;
-  }
+
   .main-menu .navbar-collapse > .navigation > li {
     width: 100% !important;
   }
@@ -3170,11 +3159,7 @@ form .form-group label em {
   .sticky-header .main-menu .navbar-header {
     padding: 0px !important;
   }
-  .sticky-header .main-menu .navbar-header .navbar-toggle {
-    position: absolute;
-    top: -48px;
-    right: 0;
-  }
+
   .main-header .sticky-header .main-menu .navigation > li > a {
     color: #fff !important;
     padding: 6px 8px !important;
