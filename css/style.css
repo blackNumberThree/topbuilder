@@ -1229,7 +1229,16 @@ form .form-group label em {
 .sticky-header .search-button i {
   font-size: 28px;
 }
+/*********************************************************
+					  Slider
+	**********************************************************/
 
+.carousel-control-next {
+  opacity: 1 !important;
+}
+.carousel-control-prev {
+  opacity: 1 !important;
+}
 /*********************************************************
 					  about-info
 	**********************************************************/
@@ -1546,80 +1555,6 @@ form .form-group label em {
   background-color: #222;
   color: #3a6bb1;
 } */
-
-/*********************************************************
-						  Static Slider
-	**********************************************************/
-.staticSlider {
-  background: url(../images/banner.jpg) no-repeat top;
-  background-size: cover;
-  background-position: center center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #ffffff;
-  height: 75vh;
-  position: relative;
-}
-.slidewrap {
-  text-align: center;
-  margin-top: -30px;
-}
-.slidewrap h3 {
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-  text-transform: none !important;
-  text-align: center;
-  text-shadow: 0 0 1px rgba(24, 24, 24, 0.75);
-}
-.slidewrap h1 {
-  color: #fff;
-  font-size: 70px;
-  font-weight: 700;
-  text-transform: none !important;
-  text-align: center;
-  text-shadow: 0 0 1px rgba(24, 24, 24, 0.75);
-  font-family: "Oswald", sans-serif;
-  padding-bottom: 25px;
-}
-.slidewrap h1 span {
-  color: #fcb80b;
-}
-.slidewrap p {
-  color: #fff;
-  font-size: 16px;
-  line-height: 23px;
-  text-transform: none !important;
-  padding-bottom: 20px;
-}
-.slidewrap a {
-  padding: 11px 40px;
-  text-decoration: none;
-  font-size: 18px;
-  position: relative;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-  color: #fff !important;
-  border: 2px solid #fff;
-  border-radius: 0px;
-  font-family: "Oswald", sans-serif;
-  background: none;
-}
-.slidewrap a:hover {
-  background: #222 !important;
-  border: 2px solid #fff;
-}
-.span_color {
-  margin-left: 15px;
-  background: #fcb80b !important;
-}
 
 /*********************************************************
 						  footer-sec
@@ -3036,12 +2971,7 @@ form .form-group label em {
   .testiWrp {
     margin-bottom: 15px;
   }
-  #main .slider {
-    margin-top: 625px;
-  }
-  .serviceSingle #main .slider {
-    margin-top: 550px;
-  }
+
   .blog-grid .pull-right {
     float: none !important;
   }
@@ -3190,12 +3120,7 @@ form .form-group label em {
   .comingSoon p {
     font-size: 70px;
   }
-  #main .slider {
-    margin-top: 30px;
-  }
-  .serviceSingle #main .slider {
-    margin-top: 30px;
-  }
+
   .featureLinks li {
     float: none;
     width: 100%;
