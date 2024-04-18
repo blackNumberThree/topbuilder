@@ -2328,7 +2328,8 @@ form .form-group label em {
   color: #fff;
 }
 .pagination-area {
-  margin-top: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .pagination-area .showreslt {
