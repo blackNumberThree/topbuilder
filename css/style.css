@@ -139,7 +139,7 @@ li {
 .section-title h3 {
   position: relative;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 42px;
@@ -1239,28 +1239,23 @@ form .form-group label em {
 .carousel-control-prev {
   opacity: 1 !important;
 }
+
 /*********************************************************
 					  about-info
 	**********************************************************/
 .about-info {
   position: relative;
+  padding-bottom: 20px;
 }
-.about-img-pro {
-  background-size: cover;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 48%;
-}
+
 .about-info .section-title h3:after {
   left: 0;
   margin-left: 0;
 }
 .about-info .section-title {
   text-align: left;
-  padding-top: 70px;
-  padding-left: 25px;
+  padding-top: 30px;
+  padding-left: 15px;
 }
 .about-info .section-title h3 {
   font-size: 24px;
@@ -1275,7 +1270,7 @@ form .form-group label em {
   line-height: 36px;
 }
 .about-description {
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   padding-left: 25px;
 }
 .about-description li {
