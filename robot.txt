@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://topbuilder.online//sitemap.xml
