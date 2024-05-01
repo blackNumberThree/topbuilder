@@ -1,0 +1,39 @@
+.blog-header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+aside {
+  float: left;
+  position: relative;
+  padding-right: 10px;
+}
+
+.content-list {
+  position: absolute;
+  top: 0;
+}
+
+/* .content-list ol {
+} */
+.first-img-description {
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  padding-left: 10px;
+  border-left: 1px solid blue;
+}
+.row > p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin: 0 0 20px 0;
+}
+.row > h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #263248;
+  margin: 32px 0 24px 0;
+}
