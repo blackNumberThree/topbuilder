@@ -619,7 +619,7 @@ li {
 .footer-sec {
   position: relative;
   background: url(../images/footer-pattern.jpg) repeat;
-  padding-top: 70px;
+  padding-top: 20px;
 }
 .footer-sec .footer-top-item .footer-logo {
   padding-top: 60px;
@@ -630,6 +630,9 @@ li {
 }
 .footer-sec .footer-info {
   margin-bottom: 30px;
+}
+.footer-sec .footer-info p {
+  color: #777777;
 }
 .footer-sec .footer-info .footer-logo {
   margin-bottom: 30px;
@@ -752,7 +755,6 @@ li {
 .footer-sec .copyright-content .footer-bottom-menu li a:hover {
   color: #fcb80b;
 }
-
 
 /*********************************************************
 						media screen
@@ -1235,7 +1237,6 @@ li {
     font-size: 14px;
   }
 }
-
 
 @media only screen and (max-width: 767px) {
   .login-btn {
