@@ -8,12 +8,7 @@
 ol li {
   list-style-type: decimal;
 }
-.first-row {
-  position: static;
-  margin-bottom: 48px;
-  display: flex;
-  justify-content: center;
-}
+
 .blog-header {
   text-align: center;
   margin-top: 20px;
@@ -29,10 +24,12 @@ ol li {
 aside {
   float: left;
   position: sticky !important;
+  margin-left: 8.333333%;
+  max-width: 16.666667%;
   top: 20px;
   padding-left: 0px !important;
   padding-right: 10px !important;
-  height: 499px;
+  max-height: 499px;
   overflow: visible;
   ol {
     padding: 0;
@@ -84,13 +81,7 @@ figure {
   outline: 0;
   color: #0757a4;
 }
-/* .first-img-description {
-  font-style: italic;
-  position: absolute;
-  bottom: 0;
-  padding-left: 10px;
-  border-left: 1px solid blue;
-} */
+
 .second-row.row {
   flex-wrap: nowrap;
   flex-direction: column;
@@ -147,5 +138,48 @@ ol {
   li::marker {
     vertical-align: top;
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  aside {
+    max-width: 20.666667%;
+    margin-left: 4.333333%;
+  }
+}
+@media only screen and (max-width: 993px) {
+  .blog-header {
+    margin: 10px 0 25px;
+  }
+  .first-row {
+    margin-left: 8.3%;
+  }
+  aside {
+    max-width: 80%;
+    float: none;
+
+    .content-list {
+      h5 {
+        margin-left: -5%;
+      }
+      margin-left: 10.3%;
+      margin-top: 10px;
+      /* border-right: 2px solid #126bc0; */
+      li {
+        padding-left: 10px;
+      }
+    }
+  }
+  figure {
+    flex-direction: column;
+    align-items: center;
+    img {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    figcaption {
+      align-self: center;
+      margin-top: 16px;
+      line-height: 24px;
+    }
   }
 }
