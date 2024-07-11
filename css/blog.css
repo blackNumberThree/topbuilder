@@ -20,15 +20,16 @@ ol li {
   max-width: unset;
   margin: 0 0 60px;
 }
-
+.first-row {
+  order: 2;
+}
 aside {
   float: left;
   position: sticky !important;
-  margin-left: 8.333333%;
   max-width: 16.666667%;
   top: 20px;
-  padding-left: 0px !important;
-  padding-right: 10px !important;
+  margin-left: 5%;
+  padding-right: 10px;
   max-height: 499px;
   overflow: visible;
   ol {
@@ -88,7 +89,7 @@ figure {
   align-items: center;
 }
 
-.row ul {
+main .row ul {
   padding: 0 0 0 20px;
   li {
     list-style: disc;
@@ -101,11 +102,11 @@ figure {
     }
   }
 }
-ol {
+main ol {
   margin: 20px 0;
   padding: 0 0 0 20px;
 }
-.row > p {
+main .row > p {
   font-size: 18px;
   line-height: 24px;
   color: #4f4f4f;
@@ -146,6 +147,11 @@ ol {
     margin-left: 4.333333%;
   }
 }
+@media only screen and (max-width: 1199px) {
+  aside ol {
+    padding-left: 17px;
+  }
+}
 @media only screen and (max-width: 993px) {
   .blog-header {
     margin: 10px 0 25px;
@@ -158,10 +164,7 @@ ol {
     float: none;
 
     .content-list {
-      h5 {
-        margin-left: -5%;
-      }
-      margin-left: 10.3%;
+      margin-left: 5.3%;
       margin-top: 10px;
       /* border-right: 2px solid #126bc0; */
       li {
